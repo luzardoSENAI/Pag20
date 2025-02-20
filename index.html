@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo 20/02/2024</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>   Pagina Modelo 20/02 </h1>
+  <div class="d-flex container">
+    <!-- Box Left -->
+    <div class="d-flex container-box container-login-left">
+      <h1 class="text-uppercase login-title">Login</h1>
+      <p class="login-description">How to i get started lorem ipsum dolor at?</p>
+      <div class="d-flex row-flex">
+        <div class="row-icon">
+          <img src="/user.svg" alt="">
+        </div>
+        <input type="text" class="input radius-right" placeholder="Username" name="login">
+      </div>
+      <div class="d-flex row-flex">
+        <div class="row-icon">
+          <img src="/cadeado.svg" alt="">
+        </div>
+        <input type="password" class="input radius-right" placeholder="Password" name="password">
+      </div>
+      <div><button type="button" class="btn-login font-weight radius-default no-border">Login Now</button></div>
+      <div><strong>Login</strong> with Others</div>
+      <div><button class="btn-others btn-block">Login with <strong>Google</strong></button></div>
+      <div><button class="btn-others btn-block">Login with <strong>Facebook</strong> </button></div>
+    </div>
+    <!-- Box Right -->
+    <div class="container-box container-login-right">
+      <div class="page-content-right position-static">
+        <div class="rectangle">
+          <img src="ellipse.png" class="img-ellipse" alt="">
+          <img src="women.png" class="img-women" alt="">
+          <img src="thunderbolt.png" class="img-thunderbolt" alt="">
+          <p>Very good works are waiting for you Login Now!!!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
